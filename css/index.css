@@ -1,0 +1,128 @@
+body {
+    background-image: linear-gradient(to right bottom, #65ecb1, #59edc8, #59eddc, #65eceb, #79eaf6, #7de7f9, #83e3fb, #8ae0fc, #7fdbfc, #75d6fb, #6ad1fb, #5fccfb);
+    height: 100vh;
+}
+
+.container {
+    border-radius: 5px;
+    text-align: center;
+}
+
+.title {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px dimgray;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search button {
+    width: 5%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.search p {
+    width: 95%;
+}
+
+.search input {
+    width: 95%;
+}
+
+.loader {
+    border-radius: 50%;
+    border-top: 15px double chartreuse;
+    border-right: 15px double white;
+    border-bottom: 15px double forestgreen;
+    border-left: 15px double white;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 1s linear infinite;
+    /* Safari */
+    animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    background-color: lawngreen;
+}
+
+tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+tr:nth-child(even) {
+    background-color: ghostwhite;
+}
+
+table .table-left {
+    text-align: left;
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+.num-surah {
+    width: 5%;
+}
+
+.name-surah {
+    width: 20%;
+}
+
+.name-trans {
+    width: 30%;
+}
+
+.num-ayah {
+    width: 5%;
+}
+
+.place-surah {
+    width: 10%;
+}
+
+.type-surah {
+    width: 5%;
+}
+
+.recitation {
+    width: 25%;
+}
